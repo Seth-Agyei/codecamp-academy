@@ -12,6 +12,7 @@ const isStudent = prompt("Are you a student ? (yes/no)").toLowerCase();
 if (isNaN(age) || age < 0 || age > 100){
     alert("Invalid Age")
 }
+
 else if (isStudent !== "yes" && isStudent !== "no"){
     alert("Invalid student status")
 }
