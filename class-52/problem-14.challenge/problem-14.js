@@ -2,7 +2,7 @@
 
 // User data inputs
 const finalGrade = parseFloat(prompt("Enter your final Grade"));
-const attendance = parseInt(prompt("Enetr your attendence percentage"));
+const attendance = parseInt(prompt("Enter your attendence percentage")); 
 const project = prompt("Have you submited your project (Yes or No)").toLowerCase();
 
 //Conditionals
