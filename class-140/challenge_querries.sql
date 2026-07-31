@@ -97,29 +97,10 @@ SELECT * FROM product WHERE Available = 'Out of Stock' OR status = 'Discontinued
 --## Exercise 19
 --Display the five most expensive products.
 SELECT * FROM product ORDER BY price DESC LIMIT 5
----
+------------------------------------------------------------------------------------
 
-## Exercise 20
+-------## Exercise 20
+---------Display all products with **0 units** in stock.
+SELECT * FROM product WHERE stock = '0'
 
-Display all products with **0 units** in stock.
 
----
-
-## Submission
-
-Create a file named:
-
-```text
-queries.sql
-```
-
-Write one SQL query for each exercise and include a SQL comment before
-every solution.
-
-Example:
-
-```sql
--- Exercise 1
-
-SELECT * FROM category;
-```
